@@ -48,7 +48,7 @@ public class Main
   // Problem 2 - HighestNum
   public static Integer highestNum(ArrayList<Integer> arr)
   {
-    int max = 0;
+    int max = arr.get(0);
     for (Integer N : arr)
     {
       if (N.intValue() > max)
